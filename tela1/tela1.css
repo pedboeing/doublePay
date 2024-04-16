@@ -1,6 +1,7 @@
 main {
   display: flex;
   font-family: 'Cabin';
+  height: 100vh;
 }
 
 .left-box {
@@ -13,14 +14,14 @@ main {
 
 .left-box__logo img {
   margin: 38px;
-  width: 468px;
+  width: 50%;
   margin-bottom: 5em;
 }
 
 .left-box__subtitle {
   color: #FFFFFF;
   font-weight: 400;
-  font-size: 32px;
+  font-size: 1.5em;
   margin: 38px;
 }
 
@@ -31,12 +32,12 @@ main {
 .left-box__title {
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 64px;
-  margin: 1em 38px;
+  font-size: 3em;
+  margin: 0.3em 2em 0 38px;
 }
 
 .right-box {
-  margin: 116px 140px;
+  margin: 3em 6em;
 }
 
 .right-box__account {
@@ -57,6 +58,11 @@ main {
   font-weight: 500;
   text-decoration: none;
   color: #2C6D52;
+  transition: all 0.5s ease;
+}
+
+.right-box__account a:hover {
+  color: rgb(100, 185, 100);
 }
 
 .right-box__login {
@@ -67,7 +73,7 @@ main {
 .right-box__login__title {
   font-size: 32px;
   font-weight: 400;
-  margin-top: 130px;
+  margin-top: 3em;
 }
 
 .right-box__login__inputs {
@@ -85,7 +91,7 @@ main {
 
 .pass {
   height: 50px;
-  width: 700px;
+  width: 40em;
   opacity: 40%;
   border: 2px solid;
   border-radius: 8px;
@@ -117,4 +123,9 @@ main {
   padding: 20px 70px;
   border-radius: 32px;
   text-decoration: none;
+  transition: all 0.7s ease;
+}
+
+.button:hover {
+  background-color: rgb(100, 185, 100);
 }
