@@ -32,8 +32,8 @@ main {
 .left-box__title {
   color: #FFFFFF;
   font-weight: 700;
-  font-size: 3em;
-  margin: 0.3em 2em 0 38px;
+  font-size: 3.5em;
+  margin: 0.6em 2em 0 38px;
 }
 
 .right-box {
@@ -97,9 +97,6 @@ main {
   border-radius: 8px;
   padding: 0 1em;
   transition: 0.5s;
-}
-
-.pass::placeholder {
   font-family: 'Cabin';
 }
 
