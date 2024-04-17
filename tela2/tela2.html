@@ -1,99 +1,71 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dados</title>
-    <link rel="stylesheet" href="../reset.css" />
-    <link rel="stylesheet" href="tela2.css" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <nav>
-      <img
-        class="navigation-logo"
-        src="../assets/logo.png"
-        alt="Logo do DoublePay"
-      />
-      <span class="d">D</span>
-      <div class="navigation__content">
-        <a class="navigation__content1" href="#">
-          <img src="../assets/pessoa.png" alt="" />
-          <span class="navigation__content-page1">Meus dados</span>
-        </a>
-        <a class="navigation__content2" href="../tela3/tela3.html">
-          <img src="../assets/moeda.png" alt="" />
-          <span class="navigation__content-page2">Contas/Convênios</span>
-        </a>
-      </div>
-    </nav>
-    <main>
-      <header>
-        <h2 class="header-title">Meus dados</h2>
-        <a href="../tela1/tela1.html"
-          ><img
-            class="header-image"
-            src="../assets/usuario-de-perfil.png"
-            alt="Foto de perfil"
-        /></a>
-      </header>
-      <div class="grid">
-        <div class="lin">
-          <div class="col">
-            <span class="title">CPF / CNPJ</span>
-            <input class="input1" type="text" placeholder="Digite aqui..." />
-          </div>
-          <div class="col">
-            <span class="title">Razão Social</span>
-            <input class="input1" type="text" placeholder="Digite aqui..." />
-          </div>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dados</title>
+  <link rel="stylesheet" href="../reset.css" />
+  <link rel="stylesheet" href="tela2.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+  <nav>
+    <img class="navigation-logo" src="../assets/logo.png" alt="Logo do DoublePay">
+    <span class="d">D</span>
+    <div class="navigation__content">
+      <a class="navigation__content1" href="#">
+        <img src="../assets/pessoa.png" alt="">
+        <span class="navigation__content-page1">Meus dados</span>
+      </a>
+      <a class="navigation__content2" href="../tela3/tela3.html">
+        <img src="../assets/moeda.png" alt="">
+        <span class="navigation__content-page2">Contas/Convênios</span>
+      </a>
+    </div>
+  </nav>
+  <main>
+    <header>
+      <h2 class="header-title">Meus dados</h2>
+      <a href="#"><img class="header-image" src="../assets/usuario-de-perfil.png" alt="Foto de perfil"></a>
+    </header>
+    <div class="grid">
+      <div class="lin1">
+        <div class="col1">
+          <span class="title">CPF / CNPJ</span>
+          <input class="input" type="text" placeholder="Digite aqui...">
         </div>
-
-        <div class="lin">
-          <div class="col">
-            <span class="title">Nome</span>
-            <input class="input2" type="text" placeholder="Digite aqui..." />
-          </div>
-          <div class="col">
-            <span class="title">Email</span>
-            <input class="input2" type="email" placeholder="Digite aqui..." />
-          </div>
-          <div class="col">
-            <span class="title">Telefone</span>
-            <input class="input2" type="text" placeholder="(99)9999-9999" />
-          </div>
-        </div>
-
-        <div class="lin">
-          <div class="col">
-            <span class="title">Logradouro</span>
-            <input class="input1" type="text" placeholder="Digite aqui..." />
-          </div>
-          <div class="col">
-            <span class="title">Número</span>
-            <input class="input1" type="text" placeholder="Digite aqui..." />
-          </div>
-        </div>
-
-        <div class="lin">
-          <div class="col">
-            <span class="title">CEP</span>
-            <input class="input2" type="text" placeholder="Digite aqui..." />
-          </div>
-          <div class="col">
-            <span class="title">Estado</span>
-            <input class="input2" type="text" placeholder="Digite aqui..." />
-          </div>
-          <div class="col">
-            <span class="title">Cidade</span>
-            <input class="input2" type="text" placeholder="Digite aqui..." />
-          </div>
+        <div class="col2">
+          <span class="title">Razão Social</span>
+          <input class="input" type="text" placeholder="Digite aqui...">
         </div>
       </div>
-      <button class="button">SALVAR</button>
-    </main>
-  </body>
+      <div class="lin2">
+        <span class="title">Nome</span>
+        <input class="input" type="text" placeholder="Digite aqui...">
+        <span class="title">Email</span>
+        <input class="input" type="email" placeholder="Digite aqui...">
+        <span class="title">Telefone</span>
+        <input class="input" type="text" placeholder="(99)9999-9999">
+      </div>
+      <div class="lin3">
+        <span class="title">Logradouro</span>
+        <input class="input" type="text" placeholder="Digite aqui...">
+        <span class="title">Número</span>
+        <input class="input" type="text" placeholder="Digite aqui...">
+      </div>
+      <div class="lin4">
+        <span class="title">CEP</span>  
+        <input class="input" type="text" placeholder="Digite aqui...">
+        <span class="title">Estado</span>
+        <input class="input" type="text" placeholder="Digite aqui...">
+        <span class="title">Cidade</span>
+        <input class="input" type="text" placeholder="Digite aqui...">
+      </div>
+    </div>
+    <button class="button">SALVAR</button>
+  </main>
+</body>
 </html>
