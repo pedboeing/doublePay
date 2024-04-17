@@ -1,36 +1,16 @@
 body {
     font-family: 'Cabin';
-    display: flex;
-    height: 100vh;
 }
 
 nav {
     background-color: #2C6D52;
-    width: 23%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    padding: 1%;
+    width: 20%;
     text-align: center;
-    padding: 2em;
-}
-
-.navigation-logo {
-    width: 40%;
-}
-
-.d {
-    position: relative;
-    color: #FFFFFF;
-    font-size: 270%;
-    right: 37%;
-    bottom: 2.5%;
-    font-style: italic;
-    opacity: 30%;
-}
-
-.navigation__content {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 1em;
-    margin-top: 2em;
 }
 
 .navigation__content1 {
@@ -39,13 +19,7 @@ nav {
     padding: 1em;
     align-items: center;
     text-decoration: none;
-}
-
-.navigation__content-page1 {
-    color: #FFFFFF;
-    text-decoration: none;
-    margin-left: 3.5em;
-    font-size: 20px;
+    margin: 20px;
 }
 
 .navigation__content2 {
@@ -54,6 +28,7 @@ nav {
     background-color: #183f2f41;
     align-items: center;
     text-decoration: none;
+    margin: 20px;
     transition: 0.4s ease;
 }
 
@@ -61,56 +36,50 @@ nav {
     background-color: #183F2F;
 }
 
-.navigation__content-page2 {
+.navigation__content-text {
     color: #FFFFFF;
     text-decoration: none;
-    margin-left: 2em;
     font-size: 20px;
+    font-weight: bold;
+    margin: 0 1em;
 }
 
+
 header {
-    border-bottom: #183F2F solid 2px;
-    width: 77vw;
+    top: 0;
+    left: 0;
+    margin-left: 22%;
+    border-bottom: 3px solid #2C6D52;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 1em;
 }
 
 .header-title {
-    font-size: 30px;
+    font-size: 36px;
+    margin: 0 1em;
     font-weight: 500;
-    padding: 0 1em;
 }
 
 .header-image {
     width: 3em;
     padding: 0.8em 1.3em;
+    left: 20;
 }
 
 .title {
     font-size: 24px;
     margin-bottom: 10px;
-}
-
-input {
-    opacity: 40%;
-    padding: 0 1em;
-    border: 1px solid;
-    border-radius: 6px;
-    height: 3em;
-    font-weight: 700;
-    transition: 0.8s ;
-}
-
-input:focus {
-    opacity: 100%;
-}
+} 
 
 .grid {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 77vw;
+    height: 90vh;
     display: flex;
     flex-direction: column;
-    gap: 2em;
 }
 
 .lin {
@@ -136,12 +105,13 @@ input:focus {
 }
 
 .button {
-    margin: 6em 0 0 127vh;
-    padding: 1em 4.5em;
+    margin: 6em 2em 0 127vh;
+    padding: 0.8em 4em;
     border: none;
-    border-radius: 8px;
+    border-radius: 10px;
     background-color: #2C6D52;
     color: #FFFFFF;
+    text-decoration: none;
     font-weight: 400;
     font-family: 'Cabin';
     cursor: pointer;
@@ -150,4 +120,18 @@ input:focus {
 
 .button:hover {
     background-color: rgb(100, 185, 100);
+} 
+
+input {
+    opacity: 40%;
+    padding: 0 1em;
+    border: 1px solid;
+    border-radius: 6px;
+    height: 3em;
+    font-weight: 700;
+    transition: 0.8s ;
+}
+
+input:focus {
+    opacity: 100%;
 }
