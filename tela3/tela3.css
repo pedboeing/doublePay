@@ -84,6 +84,7 @@ main {
     position: fixed;
     right: 1%;
     top: 10%;
+    margin: 1em 0;
     background-color: #2C6D52;
     color: #FFFFFF;
     text-decoration: none;
@@ -95,7 +96,7 @@ main {
 }
 
 .box {
-    margin: 4em 1.3em;
+    margin: 5em 1.3em;
     height: 80%;
     background-color: #F6F6F6;
     border-radius: 18px;
@@ -127,5 +128,9 @@ main {
 }
 
 .olho {
-    width: 3%;
+    width: 4%;
+}
+
+.box-main img {
+    cursor: pointer;
 }
