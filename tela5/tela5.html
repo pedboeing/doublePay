@@ -1,126 +1,75 @@
-<div id="10:343"  className="frame_0" >
-    <div id="10:344"  className="vector_1" >
-      <div className="frame_2" >
-        <span id="10:347"  className="text_3" >
-          D Pay
-        </span>
-        <span id="10:346"  className="text_4" >
-          D
-        </span>
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Convênios</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../tela5/tela5.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav>
+      <img
+        class="navigation-logo"
+        src="../assets/logo.png"
+        alt="Logo do DoublePay"
+      />
+      <a class="navigation__content1" href="../tela2/tela2.html">
+        <img src="../assets/pessoa.png" alt="" />
+        <span class="navigation__content-text">Meus dados</span>
+      </a>
+      <a class="navigation__content2" href="#">
+        <img src="../assets/moeda.png" alt="" />
+        <span class="navigation__content-text">Contas/Convênios</span>
+      </a>
+    </nav>
+    <header>
+      <h2 class="header-title">Convênios</h2>
+      <a href="../tela1/tela1.html"
+        ><img
+          class="header-image"
+          src="../assets/usuario-de-perfil.png"
+          alt="Foto de perfil"
+      /></a>
+    </header>
+    <main class="box">
+      <div class="box-header">
+        <img src="../assets/info.png" alt="Ícone de informação" />
+        <h2 class="box-header__title">Dados do convênio</h2>
       </div>
-      <div id="10:372"  className="group_5" >
-        <img id="10:373"  src="blob:null/3b304465-82f2-4e85-ad61-a6d760ffde86"  className="vector_6" ></img>
-        <span id="10:374"  className="text_7" >
-          Meus dados
-        </span>
-      </div>
-      <div id="10:348"  className="rectangle_8" >
-        <img id="10:377"  src="blob:null/dd914f36-2106-4f0f-8a74-c32bda58eb16"  className="rectangle_9" ></img>
-        <span id="10:376"  className="text_10" >
-          Contas/Convênios
-        </span>
-      </div>
-    </div>
-    <div className="frame_11" >
-      <div className="frame_12" >
-        <span id="10:349"  className="text_13" >
-          Contas
-        </span>
-        <img id="10:378"  src="blob:null/0e402c72-5474-41b3-a2f7-c895ec9b01b4"  className="rectangle_14" ></img>
-      </div>
-      <div id="10:350"  className="line_15" ></div>
-      <div className="frame_16" >
-        <span id="10:351"  className="text_17" >
-          Código do Banco
-        </span>
-        <span id="10:369"  className="text_18" >
-          Tipo
-        </span>
-      </div>
-      <div className="frame_19" >
-        <div className="frame_20" >
-          <div id="10:352"  className="instance_21" >
-            <div id="I10:352;242:8129"  className="boolean_operation_22" >
-              <span id="I10:352;242:8134"  className="text_23" >
-                999 - Banco Supremo
-              </span>
-              <div id="I10:352;242:8128"  className="instance_24" >
-                <div id="10:503"  className="frame_25" >
-                  <img id="10:504"  src="blob:null/3a021ad0-5b1f-428d-93cd-efaa7331260d"  className="vector_26" ></img>
-                </div>
-              </div>
-            </div>
-          </div>
-          <span id="10:361"  className="text_27" >
-            Agência
-          </span>
+      <div class="lin">
+        <div class="col">
+          <span class="title">Número</span>
+          <input class="input2" type="text" placeholder="Digite aqui..." />
         </div>
-        <div id="10:370"  className="instance_28" >
-          <div id="I10:370;242:8129"  className="boolean_operation_29" >
-            <span id="I10:370;242:8134"  className="text_30" >
-              Selecione uma opção
-            </span>
-            <div id="I10:370;242:8128"  className="instance_31" >
-              <div id="10:505"  className="frame_32" >
-                <img id="10:506"  src="blob:null/821dd292-0c29-4be1-964e-320400bd9d22"  className="vector_33" ></img>
-              </div>
-            </div>
-          </div>
+        <div class="col">
+          <span class="title">Descrição</span>
+          <input class="input2" type="text" placeholder="Digite aqui..." />
+        </div>
+        <div class="col">
+          <span class="title">Carteira</span>
+          <input class="input2" type="text" placeholder="777" />
         </div>
       </div>
-      <div className="frame_34" >
-        <div id="10:362"  className="instance_35" >
-          <div id="I10:362;242:8129"  className="boolean_operation_36" >
-            <span id="I10:362;242:8134"  className="text_37" >
-              Digite aqui...
-            </span>
-            <div id="I10:362;242:8128"  className="instance_38" ></div>
-          </div>
+      <div class="lin">
+        <div class="col">
+          <label for="especie">Espécie</label>
+          <select id="especie" name="especie">
+            <option value="1">R$</option>
+            <option value="2">$</option>
+            <option value="3">€</option>
+          </select>
         </div>
-        <span id="10:359"  className="text_39" >
-          Número
-        </span>
-      </div>
-      <div id="10:360"  className="instance_40" >
-        <div id="I10:360;242:8129"  className="boolean_operation_41" >
-          <span id="I10:360;242:8134"  className="text_42" >
-            Digite aqui...
-          </span>
-          <div id="I10:360;242:8128"  className="instance_43" ></div>
+        <div class="col">
+          <span class="title">Padrão CNAB</span>
+          <input class="input1" type="text" placeholder="999" />
         </div>
       </div>
-      <div className="frame_44" >
-        <span id="10:353"  className="text_45" >
-          Código do Beneficiário
-        </span>
-        <span id="10:354"  className="text_46" >
-          Codigo da Empresa*
-        </span>
-      </div>
-      <div className="frame_47" >
-        <div id="10:355"  className="instance_48" >
-          <div id="I10:355;242:8129"  className="boolean_operation_49" >
-            <span id="I10:355;242:8134"  className="text_50" >
-              Digite aqui...
-            </span>
-            <div id="I10:355;242:8128"  className="instance_51" ></div>
-          </div>
-        </div>
-        <div id="10:358"  className="instance_52" >
-          <div id="I10:358;242:8129"  className="boolean_operation_53" >
-            <span id="I10:358;242:8134"  className="text_54" >
-              Digite aqui...
-            </span>
-            <div id="I10:358;242:8128"  className="instance_55" ></div>
-          </div>
-        </div>
-      </div>
-      <div id="10:371"  className="instance_56" >
-        <div id="I10:371;242:7176"  className="frame_57" >
-          <span id="I10:371;242:7177"  className="text_58" >
-            próximo
-          </span>
-        </div>
-      </div>
-    </div>
-  </div>
+    </main>
+    <button class="box-button">SALVAR</button>
+  </body>
+</html>
